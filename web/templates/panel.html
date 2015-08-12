@@ -1,1 +1,25 @@
-{{ msg }}
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %}{% endblock %}
+{% block extra_head %}{% endblock %}
+
+
+{% block content %}
+<div class="row">
+  <div class="col-xs-4 col-sm-4"></div>
+  <div class="col-xs-4 col-sm-4"><a href="/?go=up"><img src="{% static "img/top.jpg" %}" width="64" height="64"/></a></div>
+  <div class="col-xs-4 col-sm-4"></div>
+</div>
+<div class="row"><div class="col-xs-4 col-sm-4"></div><div class="col-xs-4 col-sm-4"></div><div class="col-xs-4 col-sm-4"></div></div>
+<div class="row">
+  <div class="col-xs-4 col-sm-4"><a href="/?go=left"><img src="{% static "img/left.jpg" %}" width="64" height="64"/></a></div>
+  <div class="col-xs-4 col-sm-4"><a href="/?go=stop"><img src="{% static "img/stop.jpg" %}" width="64" height="64"/></a></div>
+  <div class="col-xs-4 col-sm-4"><a href="/?go=right"><img src="{% static "img/right.jpg" %}" width="64" height="64"/></a></div>
+</div>
+<div class="row"><div class="col-xs-4 col-sm-4"></div><div class="col-xs-4 col-sm-4"></div><div class="col-xs-4 col-sm-4"></div></div>
+<div class="row">
+  <div class="col-xs-4 col-sm-4"></div>
+  <div class="col-xs-4 col-sm-4"><a href="/?go=back"><img src="{% static "img/down.jpg" %}" width="64" height="64"/></a></div>
+  <div class="col-xs-4 col-sm-4"></div>
+</div>
+{% endblock %}

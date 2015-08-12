@@ -1,0 +1,415 @@
+[12/Aug/2015 08:41:44]"GET / HTTP/1.1" 200 23
+[12/Aug/2015 08:44:55]"GET / HTTP/1.1" 200 1202
+[12/Aug/2015 08:44:56]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 08:44:56]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 200 17420
+[12/Aug/2015 08:44:56]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 200 58533
+Traceback (most recent call last):
+- Broken pipe from ('192.168.1.108', 39128)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 127, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 215, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 127, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 215, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+- Broken pipe from ('192.168.1.108', 39126)
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 104] Connection reset by peer
+- Broken pipe from ('192.168.1.108', 39125)
+[12/Aug/2015 08:44:57]"GET / HTTP/1.1" 200 1202
+[12/Aug/2015 08:44:57]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 200 17420
+[12/Aug/2015 08:44:57]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 08:44:57]"GET /static/bootstrap/js/jquery-2.0.3.min.js HTTP/1.1" 200 83656
+[12/Aug/2015 08:44:57]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 200 58533
+[12/Aug/2015 08:44:58]"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 200 122848
+[12/Aug/2015 08:44:59]"GET /static/jquery-ui/jquery-ui.js HTTP/1.1" 200 469356
+[12/Aug/2015 08:44:59]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 08:45:03]"GET / HTTP/1.1" 200 1202
+[12/Aug/2015 08:45:03]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 200 17420
+[12/Aug/2015 08:45:03]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 08:45:04]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 200 58533
+[12/Aug/2015 08:45:04]"GET /static/bootstrap/js/jquery-2.0.3.min.js HTTP/1.1" 200 83656
+[12/Aug/2015 08:45:04]"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 200 122848
+[12/Aug/2015 08:45:05]"GET /static/jquery-ui/jquery-ui.js HTTP/1.1" 200 469356
+[12/Aug/2015 08:47:26]"GET / HTTP/1.1" 200 1303
+[12/Aug/2015 08:47:26]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[12/Aug/2015 08:47:26]"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[12/Aug/2015 08:47:26]"GET /static/bootstrap/js/jquery-2.0.3.min.js HTTP/1.1" 304 0
+[12/Aug/2015 08:47:26]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 304 0
+[12/Aug/2015 08:47:26]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 08:47:26]"GET /static/jquery-ui/jquery-ui.js HTTP/1.1" 304 0
+[12/Aug/2015 08:47:31]"GET / HTTP/1.1" 200 1303
+[12/Aug/2015 08:47:32]"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[12/Aug/2015 08:47:32]"GET /static/bootstrap/js/jquery-2.0.3.min.js HTTP/1.1" 304 0
+[12/Aug/2015 08:47:32]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[12/Aug/2015 08:47:32]"GET /static/jquery-ui/jquery-ui.js HTTP/1.1" 304 0
+[12/Aug/2015 08:47:32]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 304 0
+[12/Aug/2015 08:47:32]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 08:50:15]"GET / HTTP/1.1" 200 1671
+[12/Aug/2015 08:50:15]"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[12/Aug/2015 08:50:15]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[12/Aug/2015 08:50:15]"GET /static/bootstrap/js/jquery-2.0.3.min.js HTTP/1.1" 304 0
+[12/Aug/2015 08:50:15]"GET /static/jquery-ui/jquery-ui.js HTTP/1.1" 304 0
+[12/Aug/2015 08:50:15]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 304 0
+[12/Aug/2015 08:50:16]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 08:50:59]"GET / HTTP/1.1" 200 1671
+[12/Aug/2015 08:50:59]"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[12/Aug/2015 08:50:59]"GET /static/bootstrap/js/jquery-2.0.3.min.js HTTP/1.1" 304 0
+[12/Aug/2015 08:50:59]"GET /static/jquery-ui/jquery-ui.js HTTP/1.1" 304 0
+[12/Aug/2015 08:50:59]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[12/Aug/2015 08:50:59]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 304 0
+[12/Aug/2015 08:50:59]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 08:52:07]"GET / HTTP/1.1" 200 1752
+[12/Aug/2015 08:52:07]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 304 0
+[12/Aug/2015 08:52:07]"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[12/Aug/2015 08:52:07]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[12/Aug/2015 08:52:07]"GET /static/bootstrap/js/jquery-2.0.3.min.js HTTP/1.1" 304 0
+[12/Aug/2015 08:52:07]"GET /static/jquery-ui/jquery-ui.js HTTP/1.1" 304 0
+[12/Aug/2015 08:52:07]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 08:52:20]"GET / HTTP/1.1" 200 1752
+[12/Aug/2015 08:52:20]"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[12/Aug/2015 08:52:20]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[12/Aug/2015 08:52:20]"GET /static/bootstrap/js/jquery-2.0.3.min.js HTTP/1.1" 304 0
+[12/Aug/2015 08:52:20]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 304 0
+[12/Aug/2015 08:52:20]"GET /static/jquery-ui/jquery-ui.js HTTP/1.1" 304 0
+[12/Aug/2015 08:52:20]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 08:55:12]"GET / HTTP/1.1" 200 1752
+[12/Aug/2015 08:55:12]"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[12/Aug/2015 08:55:12]"GET /static/bootstrap/js/jquery-2.0.3.min.js HTTP/1.1" 304 0
+[12/Aug/2015 08:55:12]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[12/Aug/2015 08:55:12]"GET /static/jquery-ui/jquery-ui.js HTTP/1.1" 304 0
+[12/Aug/2015 08:55:12]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 304 0
+[12/Aug/2015 08:55:12]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 08:55:13]"GET / HTTP/1.1" 200 1752
+[12/Aug/2015 08:55:13]"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[12/Aug/2015 08:55:13]"GET /static/bootstrap/js/jquery-2.0.3.min.js HTTP/1.1" 304 0
+[12/Aug/2015 08:55:13]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 304 0
+[12/Aug/2015 08:55:13]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[12/Aug/2015 08:55:13]"GET /static/jquery-ui/jquery-ui.js HTTP/1.1" 304 0
+[12/Aug/2015 08:55:13]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 08:58:02]"GET / HTTP/1.1" 200 2087
+[12/Aug/2015 08:58:02]"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[12/Aug/2015 08:58:02]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[12/Aug/2015 08:58:02]"GET /static/jquery-ui/jquery-ui.js HTTP/1.1" 304 0
+[12/Aug/2015 08:58:02]"GET /static/bootstrap/js/jquery-2.0.3.min.js HTTP/1.1" 304 0
+[12/Aug/2015 08:58:02]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 304 0
+[12/Aug/2015 08:58:02]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 08:58:03]"GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23292
+[12/Aug/2015 08:58:17]"GET / HTTP/1.1" 200 2087
+[12/Aug/2015 08:58:17]"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[12/Aug/2015 08:58:17]"GET /static/bootstrap/js/jquery-2.0.3.min.js HTTP/1.1" 304 0
+[12/Aug/2015 08:58:17]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[12/Aug/2015 08:58:17]"GET /static/jquery-ui/jquery-ui.js HTTP/1.1" 304 0
+[12/Aug/2015 08:58:17]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 08:58:17]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 304 0
+[12/Aug/2015 08:58:17]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 08:58:17]"GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 200 23292
+[12/Aug/2015 08:58:45]"GET / HTTP/1.1" 200 1992
+[12/Aug/2015 08:58:45]"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[12/Aug/2015 08:58:45]"GET /static/bootstrap/js/jquery-2.0.3.min.js HTTP/1.1" 304 0
+[12/Aug/2015 08:58:45]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[12/Aug/2015 08:58:45]"GET /static/jquery-ui/jquery-ui.js HTTP/1.1" 304 0
+[12/Aug/2015 08:58:45]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 304 0
+[12/Aug/2015 08:58:45]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 08:58:46]"GET / HTTP/1.1" 200 1992
+[12/Aug/2015 08:58:46]"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[12/Aug/2015 08:58:46]"GET /static/bootstrap/js/jquery-2.0.3.min.js HTTP/1.1" 304 0
+[12/Aug/2015 08:58:46]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[12/Aug/2015 08:58:46]"GET /static/jquery-ui/jquery-ui.js HTTP/1.1" 304 0
+[12/Aug/2015 08:58:46]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 304 0
+[12/Aug/2015 08:58:46]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 08:59:12]"GET / HTTP/1.1" 200 1988
+[12/Aug/2015 08:59:12]"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[12/Aug/2015 08:59:12]"GET /static/bootstrap/js/jquery-2.0.3.min.js HTTP/1.1" 304 0
+[12/Aug/2015 08:59:12]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[12/Aug/2015 08:59:12]"GET /static/jquery-ui/jquery-ui.js HTTP/1.1" 304 0
+[12/Aug/2015 08:59:12]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 304 0
+[12/Aug/2015 08:59:12]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 08:59:15]"GET / HTTP/1.1" 200 1988
+[12/Aug/2015 08:59:15]"GET /static/bootstrap/js/jquery-2.0.3.min.js HTTP/1.1" 304 0
+[12/Aug/2015 08:59:15]"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[12/Aug/2015 08:59:15]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 08:59:15]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[12/Aug/2015 08:59:15]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 304 0
+[12/Aug/2015 08:59:15]"GET /static/jquery-ui/jquery-ui.js HTTP/1.1" 304 0
+[12/Aug/2015 09:05:09]"GET / HTTP/1.1" 200 1930
+[12/Aug/2015 09:05:09]"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[12/Aug/2015 09:05:09]"GET /static/bootstrap/js/jquery-2.0.3.min.js HTTP/1.1" 304 0
+[12/Aug/2015 09:05:09]"GET /static/jquery-ui/jquery-ui.js HTTP/1.1" 304 0
+[12/Aug/2015 09:05:09]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[12/Aug/2015 09:05:09]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 09:05:09]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 304 0
+[12/Aug/2015 09:05:09]"GET /static/img/up-256.png HTTP/1.1" 200 26708
+[12/Aug/2015 09:05:09]"GET /static/img/pause-256.png HTTP/1.1" 200 26738
+[12/Aug/2015 09:05:09]"GET /static/img/right-256.png HTTP/1.1" 200 26738
+[12/Aug/2015 09:05:09]"GET /static/img/down-256.png HTTP/1.1" 200 26728
+[12/Aug/2015 09:05:10]"GET /static/img/left-256.png HTTP/1.1" 200 27479
+[12/Aug/2015 09:05:10]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 09:05:10]"GET /static/img/up-256.png HTTP/1.1" 304 0
+[12/Aug/2015 09:05:10]"GET /static/img/left-256.png HTTP/1.1" 304 0
+[12/Aug/2015 09:05:10]"GET /static/img/pause-256.png HTTP/1.1" 304 0
+[12/Aug/2015 09:05:10]"GET /static/img/right-256.png HTTP/1.1" 304 0
+[12/Aug/2015 09:05:10]"GET /static/img/down-256.png HTTP/1.1" 304 0
+[12/Aug/2015 09:06:44]"GET /static/img/test.txt HTTP/1.1" 200 3
+[12/Aug/2015 09:23:36]"GET / HTTP/1.1" 200 1909
+[12/Aug/2015 09:23:36]"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[12/Aug/2015 09:23:36]"GET /static/bootstrap/js/jquery-2.0.3.min.js HTTP/1.1" 304 0
+[12/Aug/2015 09:23:36]"GET /static/jquery-ui/jquery-ui.js HTTP/1.1" 304 0
+[12/Aug/2015 09:23:36]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[12/Aug/2015 09:23:36]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 304 0
+[12/Aug/2015 09:23:36]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 09:23:36]"GET /static/img/left.jpg HTTP/1.1" 200 3104
+[12/Aug/2015 09:23:36]"GET /static/img/up.jpg HTTP/1.1" 200 3115
+[12/Aug/2015 09:23:36]"GET /static/img/stop.jpg HTTP/1.1" 200 671
+[12/Aug/2015 09:23:36]"GET /static/img/down.jpg HTTP/1.1" 200 3112
+[12/Aug/2015 09:23:36]"GET /static/img/right.jpg HTTP/1.1" 200 3159
+[12/Aug/2015 09:23:45]"GET / HTTP/1.1" 200 1909
+[12/Aug/2015 09:23:46]"GET /static/bootstrap/js/jquery-2.0.3.min.js HTTP/1.1" 304 0
+[12/Aug/2015 09:23:46]"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[12/Aug/2015 09:23:46]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[12/Aug/2015 09:23:46]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 304 0
+[12/Aug/2015 09:23:46]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 09:23:46]"GET /static/jquery-ui/jquery-ui.js HTTP/1.1" 304 0
+[12/Aug/2015 09:23:46]"GET /static/img/stop.jpg HTTP/1.1" 200 671
+[12/Aug/2015 09:23:46]"GET /static/img/up.jpg HTTP/1.1" 200 3115
+[12/Aug/2015 09:23:46]"GET /static/img/down.jpg HTTP/1.1" 200 3112
+[12/Aug/2015 09:23:46]"GET /static/img/right.jpg HTTP/1.1" 200 3159
+[12/Aug/2015 09:23:46]"GET /static/img/left.jpg HTTP/1.1" 200 3104
+[12/Aug/2015 09:26:28]"GET / HTTP/1.1" 200 1909
+[12/Aug/2015 09:26:29]"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[12/Aug/2015 09:26:29]"GET /static/bootstrap/js/jquery-2.0.3.min.js HTTP/1.1" 304 0
+[12/Aug/2015 09:26:29]"GET /static/jquery-ui/jquery-ui.js HTTP/1.1" 304 0
+[12/Aug/2015 09:26:29]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[12/Aug/2015 09:26:29]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 09:26:29]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 304 0
+[12/Aug/2015 09:26:29]"GET /static/img/up.jpg HTTP/1.1" 304 0
+[12/Aug/2015 09:26:29]"GET /static/img/stop.jpg HTTP/1.1" 304 0
+[12/Aug/2015 09:26:29]"GET /static/img/down.jpg HTTP/1.1" 304 0
+[12/Aug/2015 09:26:29]"GET /static/img/right.jpg HTTP/1.1" 304 0
+[12/Aug/2015 09:26:29]"GET /static/img/left.jpg HTTP/1.1" 304 0
+[12/Aug/2015 09:26:46]"GET / HTTP/1.1" 200 1909
+[12/Aug/2015 09:26:46]"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[12/Aug/2015 09:26:46]"GET /static/bootstrap/js/jquery-2.0.3.min.js HTTP/1.1" 304 0
+[12/Aug/2015 09:26:46]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[12/Aug/2015 09:26:46]"GET /static/jquery-ui/jquery-ui.js HTTP/1.1" 304 0
+[12/Aug/2015 09:26:46]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 304 0
+[12/Aug/2015 09:26:46]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 09:26:47]"GET /static/img/up.jpg HTTP/1.1" 304 0
+[12/Aug/2015 09:26:47]"GET /static/img/left.jpg HTTP/1.1" 304 0
+[12/Aug/2015 09:26:47]"GET /static/img/stop.jpg HTTP/1.1" 304 0
+[12/Aug/2015 09:26:47]"GET /static/img/right.jpg HTTP/1.1" 304 0
+[12/Aug/2015 09:26:47]"GET /static/img/down.jpg HTTP/1.1" 304 0
+[12/Aug/2015 09:26:48]"GET / HTTP/1.1" 200 1909
+[12/Aug/2015 09:26:48]"GET /static/bootstrap/js/jquery-2.0.3.min.js HTTP/1.1" 304 0
+[12/Aug/2015 09:26:48]"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[12/Aug/2015 09:26:48]"GET /static/jquery-ui/jquery-ui.js HTTP/1.1" 304 0
+[12/Aug/2015 09:26:48]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[12/Aug/2015 09:26:48]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 304 0
+[12/Aug/2015 09:26:48]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 09:26:48]"GET /static/img/stop.jpg HTTP/1.1" 304 0
+[12/Aug/2015 09:26:48]"GET /static/img/left.jpg HTTP/1.1" 304 0
+[12/Aug/2015 09:26:48]"GET /static/img/up.jpg HTTP/1.1" 304 0
+[12/Aug/2015 09:26:48]"GET /static/img/right.jpg HTTP/1.1" 304 0
+[12/Aug/2015 09:26:48]"GET /static/img/down.jpg HTTP/1.1" 304 0
+[12/Aug/2015 09:27:16]"GET / HTTP/1.1" 200 2024
+[12/Aug/2015 09:27:16]"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[12/Aug/2015 09:27:16]"GET /static/bootstrap/js/jquery-2.0.3.min.js HTTP/1.1" 304 0
+[12/Aug/2015 09:27:16]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[12/Aug/2015 09:27:16]"GET /static/jquery-ui/jquery-ui.js HTTP/1.1" 304 0
+[12/Aug/2015 09:27:16]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 304 0
+[12/Aug/2015 09:27:16]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 09:27:16]"GET /static/img/up.jpg%20width= HTTP/1.1" 404 1672
+[12/Aug/2015 09:27:16]"GET /static/img/left.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:27:16]"GET /static/img/stop.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:27:16]"GET /static/img/right.jpg%20width= HTTP/1.1" 404 1681
+[12/Aug/2015 09:27:16]"GET /static/img/down.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:28:21]"GET / HTTP/1.1" 200 2003
+[12/Aug/2015 09:28:21]"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[12/Aug/2015 09:28:21]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[12/Aug/2015 09:28:21]"GET /static/bootstrap/js/jquery-2.0.3.min.js HTTP/1.1" 304 0
+[12/Aug/2015 09:28:21]"GET /static/jquery-ui/jquery-ui.js HTTP/1.1" 304 0
+[12/Aug/2015 09:28:21]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 304 0
+[12/Aug/2015 09:28:21]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 09:28:21]"GET /static/img/up.jpg%20width= HTTP/1.1" 404 1672
+[12/Aug/2015 09:28:21]"GET /static/img/stop.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:28:21]"GET /static/img/left.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:28:21]"GET /static/img/right.jpg%20width= HTTP/1.1" 404 1681
+[12/Aug/2015 09:28:21]"GET /static/img/down.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:28:22]"GET / HTTP/1.1" 200 2003
+[12/Aug/2015 09:28:22]"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[12/Aug/2015 09:28:22]"GET /static/bootstrap/js/jquery-2.0.3.min.js HTTP/1.1" 304 0
+[12/Aug/2015 09:28:22]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[12/Aug/2015 09:28:22]"GET /static/jquery-ui/jquery-ui.js HTTP/1.1" 304 0
+[12/Aug/2015 09:28:22]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 304 0
+[12/Aug/2015 09:28:22]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 09:28:22]"GET /static/img/left.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:28:22]"GET /static/img/stop.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:28:22]"GET /static/img/up.jpg%20width= HTTP/1.1" 404 1672
+[12/Aug/2015 09:28:22]"GET /static/img/right.jpg%20width= HTTP/1.1" 404 1681
+[12/Aug/2015 09:28:22]"GET /static/img/down.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:28:25]"GET / HTTP/1.1" 200 2003
+[12/Aug/2015 09:28:25]"GET /static/bootstrap/js/jquery-2.0.3.min.js HTTP/1.1" 304 0
+[12/Aug/2015 09:28:25]"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[12/Aug/2015 09:28:25]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[12/Aug/2015 09:28:25]"GET /static/jquery-ui/jquery-ui.js HTTP/1.1" 304 0
+[12/Aug/2015 09:28:25]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 304 0
+[12/Aug/2015 09:28:25]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 09:28:25]"GET /static/img/up.jpg%20width= HTTP/1.1" 404 1672
+[12/Aug/2015 09:28:25]"GET /static/img/stop.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:28:25]"GET /static/img/down.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:28:25]"GET /static/img/left.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:28:25]"GET /static/img/right.jpg%20width= HTTP/1.1" 404 1681
+[12/Aug/2015 09:30:40]"GET / HTTP/1.1" 200 2122
+[12/Aug/2015 09:30:40]"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[12/Aug/2015 09:30:40]"GET /static/bootstrap/js/jquery-2.0.3.min.js HTTP/1.1" 304 0
+[12/Aug/2015 09:30:40]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[12/Aug/2015 09:30:40]"GET /static/img/up.jpg%20width= HTTP/1.1" 404 1672
+[12/Aug/2015 09:30:40]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 09:30:40]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 304 0
+[12/Aug/2015 09:30:40]"GET /static/img/stop.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:30:40]"GET /static/img/down.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:30:41]"GET /static/jquery-ui/jquery-ui.js HTTP/1.1" 304 0
+[12/Aug/2015 09:30:41]"GET /static/img/left.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:30:41]"GET /static/img/right.jpg%20width= HTTP/1.1" 404 1681
+[12/Aug/2015 09:30:41]"GET /static/img/up.jpg%20width= HTTP/1.1" 404 1672
+[12/Aug/2015 09:30:41]"GET /static/img/down.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:30:41]"GET /static/img/stop.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:30:42]"GET /?go=up HTTP/1.1" 200 2122
+[12/Aug/2015 09:30:42]"GET /static/img/stop.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:30:42]"GET /static/img/up.jpg%20width= HTTP/1.1" 404 1672
+[12/Aug/2015 09:30:42]"GET /static/img/right.jpg%20width= HTTP/1.1" 404 1681
+[12/Aug/2015 09:30:42]"GET /static/img/left.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:30:42]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 09:30:42]"GET /static/img/down.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:30:42]"GET /static/img/stop.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:30:42]"GET /static/img/up.jpg%20width= HTTP/1.1" 404 1672
+[12/Aug/2015 09:30:42]"GET /static/img/right.jpg%20width= HTTP/1.1" 404 1681
+[12/Aug/2015 09:30:49]"GET /?go=stop HTTP/1.1" 200 2122
+[12/Aug/2015 09:30:49]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 09:30:49]"GET /static/img/up.jpg%20width= HTTP/1.1" 404 1672
+[12/Aug/2015 09:30:49]"GET /static/img/stop.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:30:49]"GET /static/img/right.jpg%20width= HTTP/1.1" 404 1681
+[12/Aug/2015 09:30:49]"GET /static/img/left.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:30:49]"GET /static/img/down.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:30:54]"GET / HTTP/1.1" 200 2122
+[12/Aug/2015 09:30:54]"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[12/Aug/2015 09:30:54]"GET /static/bootstrap/js/jquery-2.0.3.min.js HTTP/1.1" 304 0
+[12/Aug/2015 09:30:54]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[12/Aug/2015 09:30:54]"GET /static/jquery-ui/jquery-ui.js HTTP/1.1" 304 0
+[12/Aug/2015 09:30:54]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 304 0
+[12/Aug/2015 09:30:54]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 09:30:54]"GET /static/img/up.jpg%20width= HTTP/1.1" 404 1672
+[12/Aug/2015 09:30:54]"GET /static/img/left.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:30:54]"GET /static/img/stop.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:30:54]"GET /static/img/right.jpg%20width= HTTP/1.1" 404 1681
+[12/Aug/2015 09:30:54]"GET /static/img/down.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:30:55]"GET /?go=up HTTP/1.1" 200 2122
+[12/Aug/2015 09:30:56]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 09:30:56]"GET /static/img/up.jpg%20width= HTTP/1.1" 404 1672
+[12/Aug/2015 09:30:56]"GET /static/img/left.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:30:56]"GET /static/img/right.jpg%20width= HTTP/1.1" 404 1681
+[12/Aug/2015 09:30:56]"GET /static/img/stop.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:30:56]"GET /static/img/down.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:30:57]"GET /?go=stop HTTP/1.1" 200 2122
+[12/Aug/2015 09:30:57]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 09:30:57]"GET /static/img/up.jpg%20width= HTTP/1.1" 404 1672
+[12/Aug/2015 09:30:57]"GET /static/img/left.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:30:57]"GET /static/img/stop.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:30:58]"GET /static/img/right.jpg%20width= HTTP/1.1" 404 1681
+[12/Aug/2015 09:30:58]"GET /static/img/down.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:30:59]"GET /?go=back HTTP/1.1" 200 2122
+[12/Aug/2015 09:30:59]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 09:30:59]"GET /static/img/up.jpg%20width= HTTP/1.1" 404 1672
+[12/Aug/2015 09:30:59]"GET /static/img/left.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:30:59]"GET /static/img/stop.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:30:59]"GET /static/img/right.jpg%20width= HTTP/1.1" 404 1681
+[12/Aug/2015 09:30:59]"GET /static/img/down.jpg%20width= HTTP/1.1" 404 1678
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 12, 2015 - 08:41:04
+Django version 1.8.3, using settings 'web.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+[12/Aug/2015 09:35:33]"GET /?go=back HTTP/1.1" 500 59215
+[12/Aug/2015 09:35:42]"GET / HTTP/1.1" 500 58155
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 12, 2015 - 09:32:30
+Django version 1.8.3, using settings 'web.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+[12/Aug/2015 09:36:02]"GET / HTTP/1.1" 200 2122
+[12/Aug/2015 09:36:02]"GET /static/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+[12/Aug/2015 09:36:02]"GET /static/bootstrap/js/jquery-2.0.3.min.js HTTP/1.1" 304 0
+[12/Aug/2015 09:36:02]"GET /static/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+[12/Aug/2015 09:36:02]"GET /static/jquery-ui/jquery-ui.js HTTP/1.1" 304 0
+[12/Aug/2015 09:36:02]"GET /static/jquery-ui/jquery-ui.theme.css HTTP/1.1" 304 0
+[12/Aug/2015 09:36:02]"GET /static/highcharts/js/highcharts.js HTTP/1.1" 404 1698
+[12/Aug/2015 09:36:03]"GET /static/img/left.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:36:03]"GET /static/img/up.jpg%20width= HTTP/1.1" 404 1672
+[12/Aug/2015 09:36:03]"GET /static/img/stop.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:36:03]"GET /static/img/down.jpg%20width= HTTP/1.1" 404 1678
+[12/Aug/2015 09:36:03]"GET /static/img/right.jpg%20width= HTTP/1.1" 404 1681
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 12, 2015 - 09:36:01
+Django version 1.8.3, using settings 'web.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+[12/Aug/2015 09:43:24]"GET / HTTP/1.1" 500 58737
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 12, 2015 - 09:36:13
+Django version 1.8.3, using settings 'web.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+[12/Aug/2015 09:43:55]"GET /?go=back HTTP/1.1" 500 60156
+[12/Aug/2015 09:43:57]"GET /?go=back HTTP/1.1" 500 60156
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 12, 2015 - 09:43:50
+Django version 1.8.3, using settings 'web.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+[12/Aug/2015 09:44:33]"GET /?go=back HTTP/1.1" 500 63131
+[12/Aug/2015 09:44:37]"GET /?go=back HTTP/1.1" 500 63131
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 12, 2015 - 09:46:23
+Django version 1.8.3, using settings 'web.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 12, 2015 - 09:47:04
+Django version 1.8.3, using settings 'web.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 12, 2015 - 09:47:59
+Django version 1.8.3, using settings 'web.settings'
+Starting development server at http://0.0.0.0:8080/
+Quit the server with CONTROL-C.

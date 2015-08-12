@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Jiva</title>
+    <!-- Use bootstrap -->
+    {% load staticfiles %}
+    <link href="{% static "bootstrap/css/bootstrap.css" %}" rel="stylesheet" type="text/css" >
+    <!-- bootstrap3 js -->
+    <script src="{% static "bootstrap/js/jquery-2.0.3.min.js" %}"></script>
+    <script src="{% static "bootstrap/js/bootstrap.js" %}"></script>
+    <!-- jquey UI -->
+    <script src="{% static "jquery-ui/jquery-ui.js" %}"></script>
+    <link href="{% static "jquery-ui/jquery-ui.theme.css" %}" rel="stylesheet" type="text/css" >
+    <!-- This is high chart -->
+    <script src="{% static "highcharts/js/highcharts.js" %}"></script>
+    <style type="text/css">
+    body { padding-top: 40px; }
+    </style>
+  {% block extra_head %}{% endblock %}
+  </head>
+  <body>
+    <div class="container">
+      <!-- content -->
+      <div class="container-fluid">
+        <div class="row-fluid">
+          <div class="span9">
+            <div class="hero-unit">
+              {% block content %}
+              {% endblock%}
+            </div>
+          </div>
+          <hr>
+          <footer>
+            <p class="text-muted">Jiva by longzhiw</p>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
